@@ -2,6 +2,6 @@ name: "Juice"
 description: "swag"
 temperature: 0.5
 viscosity: 0.3
-heatCapacity: 1.3f
+heatCapacity: 1.7f
 color: f9a3c7
 explosiveness: 10.0
