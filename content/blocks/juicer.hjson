@@ -14,7 +14,7 @@
 	"hasItems": true,
 	"rotate": false,
 	"liquidCapacity": 300
-	"craftTime": 30,
+	"craftTime": 90,
 	"updateEffect": "pulverize",
 	"consumes": {
 		"power": 6,
