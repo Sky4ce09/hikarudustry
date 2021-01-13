@@ -1,0 +1,40 @@
+{
+	"type": "GenericSmelter",
+	"name": "Juicer",
+	"description": "juice",
+	"itemCapacity": 40,
+	"outputLiquid": {
+ 	    "liquid": "juice"
+ 	    "amount": 6
+	}
+	"size": 2,
+	"hasPower": true,
+	"solid": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"rotate": false,
+	"liquidCapacity": 300
+	"craftTime": 30,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 6,
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+		"amount": 0.09
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 25 },
+		{ "item": "lead", "amount": 75 },
+		{ "item": "silicon", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "cryofluid-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.6
+}
